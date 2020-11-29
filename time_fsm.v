@@ -1,7 +1,7 @@
 /********************************************************************************************
 *			Modulo time_fsm: Manejo de tiempo de estados. 									*
-*			 	             Entrada: enable, reset, clock10kHZ, secondsToCount 			*
-*							 Salida: senales de estado de semaforo a gpio					*
+*			 	             Entrada: enable, reset, clock10kHZ, tiempo de estado. 			*
+*							 Salidas: señal de cambio de proximo de estado					*
 ********************************************************************************************/	
 
 
@@ -22,7 +22,7 @@ parameter MAX = 10000;
 
 /*Contador de tiempo: habilita y deshabilita el paso al siguiente estado una vez que termina o inicia la cuenta*/
 
-always @ (posedge CLK && secondsToCount) 
+always @ (posedge CLK) 
 	begin	
 			if(reset == 1 && enable == 1)		//Reset devuelve parametros a condicion inicial
 			begin  

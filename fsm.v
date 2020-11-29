@@ -1,6 +1,6 @@
 /********************************************************************************************
 *	Modulo fsm: administracion de luces y asignacion de tiempos de semaforo.				*
-*				Se activa con enable en uno.  	*											*
+*				Se activa con enable en uno.  												*
 *				Entradas: clock10k; senal de finalizacion de contador; sensores de trafico.	*
 * 				Salida: Senales de semaforo.												* 
 ********************************************************************************************/

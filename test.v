@@ -98,12 +98,18 @@ module test();
 		enable = 1;
 		reset = 1;
 		#1ms		 //1ms simula pulsador
-		reset = 0;
+		reset = 0;	
+		
 		
 		STH_test =1;
 		SNN_test =0;
-		SNS_test =0; 
-		#100s	  
+		SNS_test =0;
+		#200s
+		
+		STH_test =1;
+		SNN_test =1;
+		SNS_test =1; 
+		#85s	 		  
 		
 		STH_test =0;
 		SNN_test =1;
