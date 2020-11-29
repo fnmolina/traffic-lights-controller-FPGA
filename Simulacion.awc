@@ -1,0 +1,80 @@
+<config>
+    <version>
+        3.1
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="a81e848b017fede9c25f1e0dc20b1100">Simulacion.asdb</database>
+    </databases>
+    <signallists>
+        <signallist id="0">
+        <signal>/test/CLK_10k</signal>
+        <signal>/test/seconds</signal>
+        <signal>/test/reset</signal>
+        <signal>/test/enable</signal>
+        <signal>/test/finished</signal>
+        <signal>/test/SNN_test</signal>
+        <signal>/test/STH_test</signal>
+        <signal>/test/SNS_test</signal>
+        <signal>/test/NN_red</signal>
+        <signal>/test/NN_yellow</signal>
+        <signal>/test/NN_green</signal>
+        <signal>/test/NS_red</signal>
+        <signal>/test/NS_yellow</signal>
+        <signal>/test/NS_green</signal>
+        <signal>/test/TH_red</signal>
+        <signal>/test/TH_yellow</signal>
+        <signal>/test/TH_green</signal>
+        <signal>/test/GNNL_red</signal>
+        <signal>/test/GNNL_green</signal>
+        <signal>/test/GNNR_red</signal>
+        <signal>/test/GNNR_green</signal>
+        <signal>/test/GTH_red</signal>
+        <signal>/test/GTH_green</signal>
+        <signal>/test/PTH1_red</signal>
+        <signal>/test/PTH1_green</signal>
+        <signal>/test/PTH2_red</signal>
+        <signal>/test/PTH2_green</signal>
+        <signal>/test/PN_red</signal>
+        <signal>/test/PN_green</signal>
+        <signal>/test/lightTH</signal>
+        <signal>/test/lightNN</signal>
+        <signal>/test/lightNS</signal>
+        <signal>/test/lightGTH</signal>
+        <signal>/test/lightGNN_R</signal>
+        <signal>/test/lightGNN_L</signal>
+        <signal>/test/lightPN</signal>
+        <signal>/test/lightPTH1</signal>
+        <signal>/test/lightPTH2</signal>
+        </signallist>
+    </signallists>
+    <timebases>
+        <timebase id="0">
+            <time start_time="0" end_time="258427863791072" />
+        </timebase>
+    </timebases>
+    <prefbases>
+        <prefbase id="0" >
+        </prefbase>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="253163600000000" label="Cursor 1" locked="0" />
+        </cursors>
+    </cursorbases>
+    <measurementbases>
+    </measurementbases>
+    <commentbases>
+        <comments id="0">
+        </comments>
+    </commentbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+    </views>
+</config>
